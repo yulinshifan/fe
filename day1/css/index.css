@@ -1,0 +1,12 @@
+/* 选中html的p标签，然后在大括号里面写入样式 */
+p {
+    color: #58bc58;
+    background: red;
+}
+/* 选择id */
+#p2 {
+    /* 字体颜色 */
+    color:yellow;
+     /*背景颜色  */
+    background: blue;
+}

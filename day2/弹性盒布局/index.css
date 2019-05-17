@@ -1,0 +1,80 @@
+/* 初始化所有的元素外边距和内边距 */
+*{
+    /* 外边距 */
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* 把header标签变成弹性盒 */
+    /* css flex弹性盒 */
+    display: flex;
+    /* 盒子内部元素排列方向 */
+    flex-direction:column;
+}
+/* 选中 header 里面的 div */
+header div{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: #f6f6f6;
+    display: flex;
+    /* 水平居中 */
+    justify-content: center;
+    /* 垂直居中 */
+    align-items: center;
+    
+}
+/* 两个 */
+header div div{
+    flex: 4
+}
+
+header div aside{
+    flex: 2
+}
+
+header div div form input{
+    height: 35px;
+    color: #ccc;
+    background-color: #fff;
+    border: 1px solid #c8c8c8;
+}
+
+header div div form{
+    background-color: #eeefed;
+    padding: 5px;
+}
+
+
+header nav{
+    background: #96b97d;
+    height: 34px;
+    width: 100%;
+    /* 然导航栏变味弹性盒 */
+    display: flex;
+    /* 并且排序顺序为左往右 */
+    flex-direction:row;
+}
+
+header nav div{
+    background: #96b97d;
+    height: 34px;
+    color: white;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+}
+
+#leftNav{
+    flex: 2;
+}
+
+#leftNav{
+    flex: 6;
+}
+
+#rightNav{
+    flex: 2;
+}
